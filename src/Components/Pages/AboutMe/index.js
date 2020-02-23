@@ -29,7 +29,9 @@ class About extends React.Component {
         <Row className="justify-content-center">
           {this.state.skills.map(skill => (
             <Col>
-              <img className="logo" src={skill.src} alt="Logo"/>
+              <img className="skillsLogo" src={skill.src} alt="Logo"/>
+              <hr className="my-2" />
+              <p>{skill.skill}</p>
             </Col>
           ))}
         </Row>

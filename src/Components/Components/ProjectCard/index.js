@@ -20,7 +20,7 @@ const ProjectCard = (props) => {
                 </CardBody>
                 </Col>
             </Row>
-            <CardFooter className="d-flex justify-content-end">
+            <CardFooter className="d-flex justify-content-end p-2">
                 <Button href={props.githubLink} className="mr-5" target="_blank">Github Link</Button>
                 <Button href={props.deployedLink} className="mr-5" target="_blank">Deployed Link</Button>
             </CardFooter>
