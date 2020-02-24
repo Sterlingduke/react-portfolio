@@ -7,6 +7,7 @@ import emailIcon from "../../Pictures/email-logo.png";
 import githubIcon from "../../Pictures/github-logo.png";
 import linkedInIcon from "../../Pictures/linkedin-logo.png";
 import headshot from "../../Pictures/selfie.jpg";
+import resume from "../../Pictures/Web-Dev-Resume.pdf"
 import "./style.css";
 
 const Contact = (props) => {
@@ -16,7 +17,15 @@ const Contact = (props) => {
             <hr className="my-4" />
             <Row className="d-flex justify-content-center">
             <Card className="w-50 mt-3">
-                <CardHeader tag="h3" className="text-left">Joseph Young</CardHeader>
+                <CardHeader tag="h3" >
+                    <Row>
+                        <Col className="ml-4">
+                            Joseph Young
+                        </Col>
+                        <Button color="secondary" className="mr-5" href={resume} target="_blank">Resume</Button>
+                    </Row>
+                
+                </CardHeader>
                 <CardBody>
                     <Row>
                     <Col xs="5"><img className="headshot shadow bg-white rounded m-3" src={headshot} alt="Headshot"/></Col>
