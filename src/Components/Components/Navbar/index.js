@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import {
-  Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink,
-  UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem, NavbarText
+  Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink
 } from 'reactstrap';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 const Navigation = (props) => {
   const [isOpen, setIsOpen] = useState(false);

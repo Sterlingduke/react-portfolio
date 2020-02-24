@@ -13,7 +13,8 @@ class Projects extends React.Component {
     render() {
         return (
             <Jumbotron className="m-5">
-                <h1 className="display-4 text-center">Projects</h1>
+                <h1 className="display-4 text-center pb-5">Projects!</h1>
+                {/* <p className="lead text-center">See what I have built!</p> */}
                 <hr className="my-4" />
                     {this.state.projects.map(project => (
                         <ProjectCard

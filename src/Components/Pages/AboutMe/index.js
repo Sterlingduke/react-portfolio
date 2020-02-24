@@ -17,13 +17,13 @@ class About extends React.Component {
         <hr className="my-4" />
         <Row className="justify-content-center">
           <Col xs="8">
-            <p className="">Passionate about approaching programming challenges from multiple viewpoints, and collaborating with others, to provide purposeful and memorable web applications. Proven capacity in any given situation to remain calm, collected, and aid those who need it. Experienced in coordinating diverse teams, that work toward separate but collective goals. Refined eye for details. Eager to join a fast-paced, quality-driven team in order to build innovative web applications and continue to gain further experience.</p>
+            <p className="">Passionate about approaching programming challenges from multiple viewpoints, and collaborating with others, to provide purposeful and memorable web applications. Proven capacity in any given situation to remain calm, collected, and aid those who need it. Experienced in coordinating diverse teams, that work toward separate but collective goals. Refined eye for details. Eager to join a fast-paced, quality-driven team in order to build innovative web applications.</p>
           </Col>
         </Row>
         <hr className="my-4" />
         <Row className="justify-content-center">
           <Col xs="8">
-            <p className="">Technical Skills</p>
+            <p className="font-weight-bold">Technical Skills</p>
           </Col>
         </Row>
         <Row className="justify-content-center">
