@@ -28,11 +28,11 @@ const Contact = (props) => {
                 </CardHeader>
                 <CardBody>
                     <Row>
-                    <Col xs="5"><img className="headshot shadow bg-white rounded m-3" src={headshot} alt="Headshot"/></Col>
+                    <Col xs="5"><img className="headshot shadow bg-white rounded mt-3" src={headshot} alt="Headshot"/></Col>
                     <Col className="text-Left m-3">
                     <CardTitle className="lead text-center font-weight-bold">Software Engineer</CardTitle>
                     <hr className="m-3" />
-                    <NavLink href="mailto:Joseph.Young32@yahoo.com"><img className="logo" src={emailIcon} alt="Logo"/> : Joseph Young</NavLink>
+                    <NavLink href="mailto:Joseph.Young.Dev@gmail.com"><img className="logo" src={emailIcon} alt="Logo"/> : Joseph Young</NavLink>
                     <NavLink href="https://www.linkedin.com/in/joe-young-8a499a18a/"><img className="logo" src={linkedInIcon} alt="Logo"/> : Joseph Young</NavLink>
                     <NavLink href="https://github.com/JYoung32"><img className="logo" src={githubIcon} alt="Logo"/> : JYoung32</NavLink>                
                     </Col>
