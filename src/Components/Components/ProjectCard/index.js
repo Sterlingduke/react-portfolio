@@ -3,9 +3,21 @@ import {
     Card, Button, CardHeader, CardFooter, CardBody,
     CardTitle, CardText, Row, Col 
 } from 'reactstrap';
+import MediaQuery, { useMediaQuery } from 'react-responsive';
 
 const ProjectCard = (props) => {
+
+    const isDesktopOrLaptop = useMediaQuery({
+        query: '(min-device-width: 1224px)'
+    });
+
+    const isTablet = useMediaQuery({
+        query: '(max-device-width: 1224px)'
+    })
+
     return (
+        <div>
+        {isDesktopOrLaptop && <>
         <Card className="m-4">
             <CardHeader tag="h3" className="p-3">{props.projectName}</CardHeader>
             <Row>
@@ -25,6 +37,11 @@ const ProjectCard = (props) => {
                 <Button href={props.deployedLink} className="mr-5" target="_blank">Deployed Link</Button>
             </CardFooter>
         </Card>
+        </>}
+        {isTablet && <>
+            <p>Tablet view</p>
+        </>}
+        </div>
     )
 }
 
