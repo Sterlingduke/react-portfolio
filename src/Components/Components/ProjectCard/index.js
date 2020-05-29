@@ -11,9 +11,9 @@ const ProjectCard = (props) => {
         query: '(min-device-width: 1224px)'
     });
 
-    const isTablet = useMediaQuery({
+    const isTabletOrPhone = useMediaQuery({
         query: '(max-device-width: 1224px)'
-    })
+    });
 
     return (
         <div>
@@ -38,26 +38,23 @@ const ProjectCard = (props) => {
                 </CardFooter>
             </Card>
         </>}
-        {isTablet && <>
+        {isTabletOrPhone && <>
             <Card className="m-4">
             <CardHeader tag="h3" className="p-3">{props.projectName}</CardHeader>
             <CardBody>
-                <Row>
-                    <Col>
-                        <img width="75%" className="m-5"src={props.exampleGif} alt="Project Pic" />
-                    </Col>
-                    <Col>
-                    
-                    <CardText className="m-3">{props.summary}</CardText>
-                    </Col>
+                <Row className="justify-content-center">
+                    <img width="75%" src={props.exampleGif} alt="Project Pic" />
                 </Row>
-                <br />
+                <br/>
                 <Row>
-                    <CardText><b>Tech Used:</b> {props.techUsed}</CardText>
+                    <CardText className="m-3"><b>Summary:</b>{props.summary}</CardText>
+                </Row>
+                <Row>
+                    <CardText className="m-3"><b>Tech Used:</b> {props.techUsed}</CardText>
                 </Row>
             </CardBody>
             
-            <CardFooter className="d-flex justify-content-around p-2">
+            <CardFooter className="d-flex justify-content-around p-1">
                 <Button href={props.githubLink} className="m-2" target="_blank">Github Link</Button>
                 <Button href={props.deployedLink} className="m-2" target="_blank">Deployed Link</Button>
             </CardFooter>
