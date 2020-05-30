@@ -16,7 +16,7 @@ class About extends React.Component {
         <p className="lead">I'm Joseph Young, a software developer.</p>
         <hr className="my-4" />
         <Row className="justify-content-center">
-          <Col xs="8">
+          <Col>
             <p className="">Passionate about approaching programming challenges from multiple viewpoints and collaborating with others to provide purposeful and memorable web applications. Eager to leverage skills in the future as part of a fast-paced, quality-driven team in order to build better, innovative, and memorable experiences on the web.</p>
           </Col>
         </Row>

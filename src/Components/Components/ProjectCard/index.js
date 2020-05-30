@@ -43,7 +43,7 @@ const ProjectCard = (props) => {
             <CardHeader tag="h3" className="p-3">{props.projectName}</CardHeader>
             <CardBody>
                 <Row className="justify-content-center">
-                    <img width="75%" src={props.exampleGif} alt="Project Pic" />
+                    <img width="75%" height="75%" src={props.exampleGif} alt="Project Pic" />
                 </Row>
                 <br/>
                 <Row>

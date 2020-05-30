@@ -57,10 +57,8 @@ const Contact = (props) => {
                 <Row className="d-flex justify-content-center">
                     <Card className="m-3">
                         <CardHeader tag="h3" >
-                            <Row>
-                                <Col className="ml-4">
-                                    Joseph Young
-                                </Col>
+                            <Row className="justify-content-center">
+                                Joseph Young
                             </Row>
                         </CardHeader>
                         <CardBody>
