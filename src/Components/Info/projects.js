@@ -1,34 +1,34 @@
-import safeFlightGif from '../Gifs/safe-flight-example.gif';
-import mernScraperGif from '../Gifs/react-mongo-scraper-example.gif';
-import freelancersGif from '../Gifs/freelancers-example.gif';
+import burgerGif from '../Gifs/RandysBurgerApp.gif';
+import budgetTrackerGif from '../Gifs/budgetTracker.gif';
+import letsGoPlacesGif from '../Gifs/letsGoPlaces.gif';
 
 const projects = [
     {
         "id": 1,
-        "projectName": "Safe Flight",
-        "exampleGif" : safeFlightGif,
-        "summary": "Safe Flight is a web application designed to help the user plan out a flight itinerary with airlines that are safe, secure, and not prone to malfuntion.",
-        "techUsed": "React, MongoDB, Express, Node.js, Reactstrap, React-Router-Dom, Mongoose, Passport.js, Moment.js, Axios, Bcrypt, Bootstrap, Node-sass, and this project is deployed with Heroku.",
-        "githubLink": "https://github.com/JYoung32/safe-flight",
-        "deployedLink": "https://floating-everglades-15450.herokuapp.com/"
+        "projectName": "Randy's... Burger App!",
+        "exampleGif" : burgerGif,
+        "summary": "Users of the application can create custom named burgers and submit them through the form.  They are added to the MySQL database.  They can optionally be given a customer name before being devoured.  All database queries are handled through sequelize.",
+        "techUsed": " MySQL (with Sequelize), Express, Node, and Handlebars as well as Javascript, HTML, CSS, Bootstrap, jQuery",
+        "githubLink": "https://github.com/Sterlingduke/Eat_Da_Burger",
+        "deployedLink": "https://burger-app-sterling.herokuapp.com/"
     },
     {
         "id": 2,
-        "projectName": "MERN Scraper",
-        "exampleGif" : mernScraperGif,
-        "summary": "MERN Scraper is a news article web application that allows the user to view news articles, save an article, it can also allow the user to post and delete notes on a save article.",
+        "projectName": "Budget Tracker",
+        "exampleGif" : budgetTrackerGif,
+        "summary": "Budget Tracker is an application that allow for offline access and functionality.The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online. Offline Functionality:Enter deposits offline, Enter expenses offline,When brought back online ,Offline entries should be added to tracker.",
         "techUsed": "Tech Used: React, MongoDB, Express, Node.js, Reactstrap, Bootstrap, Mongoose, Axios, Cheerio, React-Router-Dom, and this project is deployed to Heroku.",
-        "githubLink": "https://github.com/JYoung32/react-mongo-scraper",
-        "deployedLink": "https://thawing-lowlands-26119.herokuapp.com/"
+        "githubLink": "https://github.com/Sterlingduke/budget_tracker2000",
+        "deployedLink": "https://budgettracker2000.herokuapp.com/"
     },
     {
         "id": 3,
-        "projectName": "Freelancers",
-        "exampleGif" : freelancersGif,
-        "summary": "Freelancers is a web application designed to assist the user with connect them to a local expert to get the job done. In addition, a professional can come visit the app and leave their information to later be called upon to do a job.",
-        "techUsed": "Tech Used: Express, Express-Handlebars, HTML, CSS, Javascript, MySQL, Sequelize, Node,js, Animate.CSS and this project is deployed to Heroku.",
-        "githubLink": "https://github.com/JYoung32/freelancers",
-        "deployedLink": "https://obscure-savannah-83730.herokuapp.com/"
+        "projectName": "Let's Go Places",
+        "exampleGif" : letsGoPlacesGif,
+        "summary": "As a Traveler  I want a Travel Journal Application that’s compatible from my phone, laptop or Tablet - So I can Journal/Document places I have been.",
+        "techUsed": "Tech Used: Express,Axios, HTML, CSS, Javascript, Passport, Passport-google-Oauth2, React, React-google-login, and this project is deployed to Heroku.",
+        "githubLink": "https://github.com/Sterlingduke/glowing-octo-chainsaw",
+        "deployedLink": "https://sheltered-plateau-62064.herokuapp.com/"
     }
 ];
 

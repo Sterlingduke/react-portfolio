@@ -6,8 +6,8 @@ import {
 import emailIcon from "../../Pictures/email-logo.png";
 import githubIcon from "../../Pictures/github-logo.png";
 import linkedInIcon from "../../Pictures/linkedin-logo.png";
-import headshot from "../../Pictures/selfie.jpeg";
-import resume from "../../Pictures/Web-Dev-Resume.pdf"
+import headshot from "../../Pictures/sterlingduke.jpeg";
+import resume from "../../Pictures/Sterling Resume 2019 (1).pdf"
 import "./style.css";
 import MediaQuery, { useMediaQuery } from 'react-responsive';
 
@@ -31,7 +31,7 @@ const Contact = (props) => {
                         <CardHeader tag="h3" >
                             <Row>
                                 <Col className="ml-4">
-                                    Joseph Young
+                                    Sterling Duke
                                 </Col>
                                 <Button color="secondary" className="mr-5" href={resume} target="_blank">Resume</Button>
                             </Row>
@@ -42,9 +42,9 @@ const Contact = (props) => {
                                 <Col className="text-Left m-3">
                                     <CardTitle className="lead text-center font-weight-bold">Software Engineer</CardTitle>
                                     <hr className="m-3" />
-                                    <NavLink href="mailto:Joseph.Young.Dev@gmail.com"><img className="logo" src={emailIcon} alt="Logo"/> : Joseph Young</NavLink>
-                                    <NavLink href="https://www.linkedin.com/in/joe-young-8a499a18a/"><img className="logo" src={linkedInIcon} alt="Logo"/> : Joseph Young</NavLink>
-                                    <NavLink href="https://github.com/JYoung32"><img className="logo" src={githubIcon} alt="Logo"/> : JYoung32</NavLink>                
+                                    <NavLink href="mailto:Sterlingcduke@gmail.com"><img className="logo" src={emailIcon} alt="Logo"/> : Sterlingcduke@gmail.com </NavLink>
+                                    <NavLink href="https://www.linkedin.com/in/sterling-duke-0b47141b5/"><img className="logo" src={linkedInIcon} alt="Logo"/> : Sterling Duke</NavLink>
+                                    <NavLink href="https://github.com/Sterlingduke"><img className="logo" src={githubIcon} alt="Logo"/> : Sterlingduke</NavLink>                
                                 </Col>
                             </Row>
                         </CardBody>
@@ -58,7 +58,7 @@ const Contact = (props) => {
                     <Card className="m-3">
                         <CardHeader tag="h3" >
                             <Row className="justify-content-center">
-                                Joseph Young
+                                Sterling Duke
                             </Row>
                         </CardHeader>
                         <CardBody>
@@ -70,9 +70,9 @@ const Contact = (props) => {
                             <Row>
                                 <Col className="text-center">
                                     <Button color="secondary" className="mb-3" href={resume} target="_blank">Resume</Button>
-                                    <NavLink href="mailto:Joseph.Young.Dev@gmail.com"><img className="logo" src={emailIcon} alt="Logo"/> : Joseph Young</NavLink>
-                                    <NavLink href="https://www.linkedin.com/in/joe-young-8a499a18a/"><img className="logo" src={linkedInIcon} alt="Logo"/> : Joseph Young</NavLink>
-                                    <NavLink href="https://github.com/JYoung32"><img className="logo" src={githubIcon} alt="Logo"/> : JYoung32</NavLink>
+                                    <NavLink href="mailto:Sterlingcduke@gmail.com"><img className="logo" src={emailIcon} alt="Logo"/> : Sterling Duke</NavLink>
+                                    <NavLink href="https://www.linkedin.com/in/sterling-duke-0b47141b5/"><img className="logo" src={linkedInIcon} alt="Logo"/> : Sterling Duke</NavLink>
+                                    <NavLink href="https://github.com/Sterlingduke"><img className="logo" src={githubIcon} alt="Logo"/> : Sterlingduke</NavLink>
                                 </Col>                
                             </Row>
                         </CardBody>
